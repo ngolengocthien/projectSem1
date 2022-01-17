@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #0b0c10;
+}
+.banner {
+  position: relative;
+}
+.navbar {
+  background-color: #0b0c10;
+}
+.carousel-item img {
+  width: 100%;
+}
+.dropdown-menu {
+  background-color: #0b0c10;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(128, 128, 128, 0.5);
+  margin: 0;
+  padding: 0;
+  height: 140px;
+}
+.test-center p {
+  font-weight: 500;
+}
+.content input {
+  position: relative;
+  height: 26px;
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 2px white;
+}
+.content .search-left {
+  position: absolute;
+  right: 0;
+}
+.footer-left i {
+  color: #ffbe00;
+  font-size: 20px;
+}
+.footer-left span {
+  color: #ffbe00;
+}
+.content-left {
+  /* position: relative; */
+  line-height: 140px;
+  text-align: center;
+}
+.right {
+  text-align: center;
+  color: yellow;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.right .content-right {
+  color: white;
+}
+.navbar {
+  box-shadow: 0 0 4px 0;
+}
+.navbar-nav {
+  font-size: 22px;
+  font-weight: 700;
+}
+.navbar .navbar-nav .nav-item a {
+  transition-duration: 0.3s;
+  /* transition-property: transform; */
+  transition-timing-function: ease-out;
+}
+.navbar .navbar-nav .nav-item a:hover {
+  transform: translateY(-10px);
+  color: #cea67e;
+}
+.navbar-nav .nav-item a {
+  margin-right: 20px;
+}
+
+/* .new-arrival {
+  margin-top: 40px;
+  padding: 0;
+  object-fit: cover;
+} */
+.card-1 {
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.card-2 {
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.card-3 {
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.card-4 {
+  margin-top: 20px;
+}
+.card-img {
+  height: 250px;
+  object-fit: cover;
+}
+.btn-primary {
+  border-color: #45a29e;
+  background-color: #0b0c10;
+}
+.btn-primary:hover {
+  /* background-color: #f58634;
+  color: white; */
+  box-shadow: 1px 1px 10px grey;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.pl-3 {
+  margin-top: 20px;
+}
+.divider {
+  background-color: white;
+  border-bottom: solid 2px black;
+}
+.text-center a {
+  color: #66fcf1;
+}
+.text-center a:hover {
+  text-decoration: none;
+  box-shadow: 1px 1px 10px white;
+  transform: scale(1.1);
+  transition: all 0.5s;
+  color: #fff;
+}
+.card-new-1 {
+  margin-top: 20px;
+  margin-right: 15px;
+  /* height: 240px; */
+}
+.card-new-2 {
+  margin-top: 20px;
+  margin-right: 15px;
+  /* height: 240px; */
+}
+.card-new-3 {
+  margin-top: 20px;
+  margin-right: 15px;
+  /* height: 240px; */
+}
+.card-new-4 {
+  margin-top: 20px;
+  /* margin-right: 15px; */
+}
+.card-img-new {
+  height: 240px;
+  object-fit: cover;
+}
+.card-body-new .card-text p {
+  color: black;
+}
+.side-bar-left-content {
+  background-color: #0b0c10;
+  margin-top: 20px;
+}
+.side-bar-left-content a {
+  text-decoration: none;
+}
+.card-body-new a {
+  margin-top: 5px;
+}
+.card-body-chandeliers h4 {
+  color: #ff652f;
+}
+.card-body-chandeliers p {
+  color: #fff;
+}
+.card-chandeliers-1 {
+  margin-right: 6px;
+  margin-top: 20px;
+  background-color: #0b0c10;
+}
+.card-chandeliers-2 {
+  margin-right: 6px;
+  margin-top: 20px;
+  background-color: #0b0c10;
+}
+.card-chandeliers-3 {
+  margin-right: 6px;
+  margin-top: 20px;
+  background-color: #0b0c10;
+}
+.card-chandeliers-4 {
+  margin-top: 20px;
+  background-color: #0b0c10;
+}
+.card-img-chandeliers {
+  height: 190px;
+  object-fit: cover;
+}
+.side-bar-img {
+  width: 100%;
+}
+.side-bar-left-content a {
+  color: #66fcf1;
+}
+.side-bar-left-content a:hover {
+  color: #fff;
+  box-shadow: 1px 1px 10px yellowgreen;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.side-bar-left-content .left-content a {
+  right: 10px;
+}
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: black;
+}
+
+.row h4 {
+  font-size: 25px;
+  /* color: #ffbe00; */
+  font-weight: 700;
+}
+.footer-p {
+  color: white;
+  display: inline;
+}
+.row h5 {
+  color: #ffbe00;
+}
+footer i {
+  color: #f3f3f3;
+}
+/* .footer-left {
+  display: inline; */
+
+.content1 {
+  display: inline;
+}
+.icon i {
+  font-size: 30px;
+  margin: 6px;
+}
+.footer-mid-content i a {
+  margin-bottom: 10px;
+}
+.copyright {
+  text-align: center;
+  color: white;
+}
+.footer-left {
+  margin-top: 20px;
+}
+.logo-mobile img {
+  height: 60px;
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo-mobile {
+    display: none;
+  }
+}

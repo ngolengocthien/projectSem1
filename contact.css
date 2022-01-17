@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.content-contact {
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  height: 140px;
+}
+.test-center p {
+  font-weight: 500;
+}
+.content-left input {
+  height: 20px;
+  border: none;
+  border-bottom: solid white 2px;
+}
+.content-contact-left {
+  background-color: white;
+}
+/* .google-map {
+  margin-top: 40px;
+} */
+/* .footer-contact {
+  margin-top: 20px; */
+/* } */
+.content-contact-mid {
+  background-image: url();
+}
