@@ -9,6 +9,18 @@
   padding: 0;
   height: 140px;
 }
+.sec-tb {
+  padding: 80px 0;
+}
+[class*="sec"] {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+section {
+  display: block;
+}
 .test-center p {
   font-weight: 500;
 }
