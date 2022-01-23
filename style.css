@@ -179,6 +179,9 @@ body {
   text-align: center;
   /* display: inline-block; */
 }
+.setting-height {
+  height: 70px;
+}
 .card-body-chandeliers h4 {
   color: #ff652f;
 }
@@ -186,8 +189,12 @@ body {
   color: #fff;
   text-align: center;
 }
-.card-body-chandeliers span {
+.text-red {
   color: red;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .card-body-chandeliers a {
   text-align: center;

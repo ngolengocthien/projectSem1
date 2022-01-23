@@ -21,6 +21,9 @@
 .test-center p {
   font-weight: 500;
 }
+.conten-contact {
+  margin-bottom: 20px;
+}
 .content-left input {
   height: 20px;
   border: none;
