@@ -294,3 +294,11 @@ footer i {
     display: none;
   }
 }
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: #fff;
+  }
+  .navbar-toggler-icon {
+    background-color: #0b0c10;
+  }
+}
