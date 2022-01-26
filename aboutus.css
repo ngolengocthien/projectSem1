@@ -1,0 +1,156 @@
+.aboutus-column {
+  display: inline-block;
+  height: 1400px;
+  text-align: center;
+  margin-top: 10px;
+  /*border: 4px solid green; */
+}
+
+.aboutus-column:after {
+  background-image: url(https://image.ibb.co/cA6hgy/Vertical_Line_4.png);
+  background-size: 5px;
+  position: absolute;
+  content: "";
+  display: block;
+  width: 5px;
+  left: 50%;
+  margin-left: -2px;
+  top: 290px;
+  bottom: 58px;
+  /* border: 4px solid yellow; */
+  z-index: 0;
+}
+
+.aboutus-head {
+  height: 265px;
+  background: none;
+  /* border: 4px solid brown; */
+}
+
+.aboutus-block {
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+  text-align: auto;
+  height: 1681px;
+  width: 900px;
+  /* border: 4px solid blue; */
+}
+
+.column {
+  position: relative;
+  display: block;
+  vertical-align: center;
+  width: 545px;
+  margin-bottom: 70px;
+  z-index: 10;
+  /* border: 4px solid blue; */
+}
+
+.column :last-child {
+  margin-bottom: 0;
+}
+
+.left {
+  float: left;
+  text-align: right;
+}
+
+.right {
+  float: right;
+  text-align: left;
+}
+
+.team-discription {
+  font-size: 18px;
+  width: 595px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.circle-demo {
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(241, 241, 241);
+  border-width: 7px;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+.circle-container {
+  border-width: 7px;
+  border-color: rgb(241, 241, 241);
+  border-radius: 50%;
+  width: 186px;
+  height: 186px;
+}
+
+.aboutus-column-circle {
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  border-style: solid;
+  border-width: 7px;
+  border-color: rgb(241, 241, 241);
+  border-radius: 50%;
+  background-color: rgb(254, 209, 54);
+  width: 184px;
+}
+
+.content-container {
+  display: inline-block;
+  width: 300px;
+  line-height: 1.45;
+  float: right;
+  padding-right: 15px;
+}
+
+.humble-content,
+.darkdays-content {
+  float: left;
+}
+
+.last-child {
+  display: inline-block;
+  text-align: center;
+}
+
+.circle-last-child {
+  background-color: #fed136;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 18px;
+  font-family: "Montserrat" sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.last-child .circle-container {
+  margin: 0 auto;
+}
+
+.circle-text-conteiner {
+  width: 105px;
+  height: 92px;
+  padding-top: 36px;
+  padding-bottom: 32px;
+  padding-left: 27px;
+}
+
+.botton-aboutus {
+  display: block;
+  width: 240px;
+  height: 65px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-decoration: none;
+  margin-top: 66px;
+  padding-bottom: 100px;
+}
