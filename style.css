@@ -67,7 +67,7 @@ body {
   box-shadow: 0 0 4px 0;
 }
 .navbar-nav {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
 }
 .navbar .navbar-nav .nav-item a {
@@ -91,6 +91,8 @@ body {
 }
 .card-body-new span {
   display: inline;
+  position: absolute;
+  bottom: 0;
 }
 .card-1 {
   margin-top: 20px;
@@ -164,6 +166,9 @@ body {
 }
 .card-body-new .card-text p {
   color: black;
+}
+.card-body-new {
+  height: 130px;
 }
 .side-bar-left-content {
   background-color: #0b0c10;
@@ -300,5 +305,36 @@ footer i {
   }
   .navbar-toggler-icon {
     background-color: #0b0c10;
+  }
+}
+/* Promotion */
+.promotion-left img,
+.promotion-right img {
+  width: 160px;
+}
+.promotion-left-first {
+  position: absolute;
+  top: 600px;
+  left: 0;
+}
+.promotion-right-first {
+  position: absolute;
+  top: 600px;
+  right: 0;
+}
+.promotion-left-second {
+  position: fixed;
+  top: 70px;
+  left: 0;
+}
+.promotion-right-second {
+  position: fixed;
+  top: 70px;
+  right: 0;
+}
+@media screen and (max-width: 1439px) {
+  .promotion-left,
+  .promotion-right {
+    display: none;
   }
 }
